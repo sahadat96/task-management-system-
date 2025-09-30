@@ -38,10 +38,14 @@ DB_DATABASE=database_name
 DB_USERNAME=username
 DB_PASSWORD=password
 ```
+ ### Run migrations
+```bash
+php artisan migrate
+```
 
  ### Start Development Server
  ```
-   php artisan serve
+ php artisan serve
 ```
 ##  API Endpoints
 
